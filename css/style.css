@@ -1018,7 +1018,12 @@ a.move-top span {
     border-radius: 10px;
 }
 .img-logo{
-    width: 220px;
+    width: 200px;
+    
+}
+.logo-abc{
+    width: 200px !important;
+    display: inline-block !important;
 }
 
 @media(max-width:1366px) {
