@@ -1010,7 +1010,13 @@ a.move-top span {
 .boombam1{
     display: none;
 }
-
+#hideIt{
+    display: none;
+}
+.btn11{
+    padding: 10px;
+    border-radius: 10px;
+}
 
 @media(max-width:1366px) {
     .main-content {
