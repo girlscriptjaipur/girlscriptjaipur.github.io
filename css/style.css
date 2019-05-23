@@ -1007,6 +1007,9 @@ a.move-top span {
 .myCard{
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
 }
+.boombam1{
+    display: none;
+}
 
 
 @media(max-width:1366px) {
@@ -1189,6 +1192,9 @@ a.move-top span {
     header {
         padding: 0 1em;
     }
+    .clrd{
+    background-color: #ECF0F1;
+}
 }
 
 @media(max-width:736px) {
@@ -1203,6 +1209,16 @@ a.move-top span {
 
     .team-info h4 {
         font-size: 1.2em;
+    }
+    .clrd{
+        background-color: #ECF0F1;
+    }
+    .boombam{
+        display: none;
+    }
+    .boombam1{
+        margin-top: 10px;
+        display: inline-block;
     }
 }
 
@@ -1232,6 +1248,9 @@ a.move-top span {
 
     .entry-lore-info h4 {
         font-size: 1.5em;
+    }
+    .clrd{
+        background-color: #ECF0F1;
     }
 
 }
