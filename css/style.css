@@ -500,7 +500,7 @@ a.reqe-button {
 }
 
 
-p.w3pvt-phone {
+p.hit3pvt-phone {
     color: #fff;
     font-size: 1em;
     font-weight: 600;
@@ -523,7 +523,7 @@ p.w3pvt-phone {
     min-height: 20em;
 }
 
-.banner-content-w3pvt {
+.banner-content-hit3pvt {
     padding-top: 17em;
 }
 
@@ -619,7 +619,7 @@ a.btn.btn-course:hover {
     color: #333;
 }
 
-.entry-w3pvt-main {
+.entry-hit3pvt-main {
     background-color: #ecf0f1;
 }
 
@@ -638,7 +638,7 @@ a.btn.btn-course:hover {
     font-size: 1em;
 }
 
-.content-w3pvt-img {
+.content-hit3pvt-img {
     padding: 0 5em;
 }
 
@@ -671,7 +671,7 @@ a.btn.btn-course:hover {
 }
 
 
-.content-w3pvt-img img {
+.content-hit3pvt-img img {
     border-radius: 50%;
     -webkit-border-radius: 50%;
     border-radius: 50%;
@@ -765,14 +765,14 @@ p.sub-test {
     margin-bottom: 1em;
 }
 
-.w3pvt_mail_grid_right {
+.hit3pvt_mail_grid_right {
     padding: 1em 2em;
 }
 
-.w3pvt_mail_grid_right input[type="text"],
-.w3pvt_mail_grid_right input[type="email"],
-.w3pvt_mail_grid_right textarea,
-.w3pvt_mail_grid_right select {
+.hit3pvt_mail_grid_right input[type="text"],
+.hit3pvt_mail_grid_right input[type="email"],
+.hit3pvt_mail_grid_right textarea,
+.hit3pvt_mail_grid_right select {
     display: block;
     width: 100%;
     padding: 0.6rem 1rem;
@@ -790,7 +790,7 @@ select.form-control:not([size]):not([multiple]) {
     height: inherit;
 }
 
-.w3pvt_mail_grid_right textarea {
+.hit3pvt_mail_grid_right textarea {
     min-height: 180px;
     width: 100% !important;
     resize: none;
@@ -945,17 +945,17 @@ footer {
     background: #191818;
 }
 
-.footer-w3pvt-copy-social ul li,
+.footer-hit3pvt-copy-social ul li,
 .contact-left-footer ul li {
     display: inline-block;
 }
 
-.footer-w3pvt-copy-social ul li a {
+.footer-hit3pvt-copy-social ul li a {
     color: #333;
     text-align: center;
 }
 
-.footer-w3pvt-copy-social ul li a span {
+.footer-hit3pvt-copy-social ul li a span {
     width: 20px;
     font-size: 20px;
     color: #666;
@@ -966,7 +966,7 @@ footer {
     -ms-transition: 0.5s all;
 }
 
-.footer-w3pvt-copy-social ul li a:hover {
+.footer-hit3pvt-copy-social ul li a:hover {
     opacity: 0.8;
 
 }
@@ -1004,6 +1004,9 @@ a.move-top span {
     -moz-border-radius: 4px;
 }
 
+.myCard{
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
 
 
 @media(max-width:1366px) {
@@ -1030,7 +1033,7 @@ a.move-top span {
         margin: 0 auto;
     }
 
-    .banner-content-w3pvt {
+    .banner-content-hit3pvt {
         padding-top: 14em;
     }
 
@@ -1058,7 +1061,7 @@ a.move-top span {
         min-height: 38em;
     }
 
-    .banner-content-w3pvt {
+    .banner-content-hit3pvt {
         padding-top: 13em;
     }
 
@@ -1066,18 +1069,18 @@ a.move-top span {
         margin: 0 0.3em;
     }
 
-    p.w3pvt-phone {
+    p.hit3pvt-phone {
 
         margin-left: 3em;
     }
 }
 
 @media(max-width:1050px) {
-    .nav_w3pvt nav a {
+    .nav_hit3pvt nav a {
         margin: 0em 0.5em;
     }
 
-    .content-w3pvt-img {
+    .content-hit3pvt-img {
         padding: 0 3em;
     }
 
@@ -1117,7 +1120,7 @@ a.move-top span {
         margin-bottom: 1em;
     }
 
-    .content-w3pvt-img {
+    .content-hit3pvt-img {
         padding: 0 1em;
     }
 
@@ -1131,7 +1134,7 @@ a.move-top span {
         margin-top: 1em;
     }
 
-    .content-w3pvt-img {
+    .content-hit3pvt-img {
         padding: 1em 2em;
     }
 
@@ -1140,15 +1143,15 @@ a.move-top span {
         width: 50%;
     }
 
-    p.w3pvt-phone {
+    p.hit3pvt-phone {
         color: #4a4848;
     }
 
-    .comment-bottom.w3pvt_mail_grid-img {
+    .comment-bottom.hit3pvt_mail_grid-img {
         margin-top: 1.5em;
     }
 
-    p.w3pvt-phone {
+    p.hit3pvt-phone {
         margin-left: 0em;
     }
 }
@@ -1163,11 +1166,11 @@ a.move-top span {
         min-height: 32em;
     }
 
-    .banner-content-w3pvt {
+    .banner-content-hit3pvt {
         padding-top: 10em;
     }
 
-    .content-w3pvt-img {
+    .content-hit3pvt-img {
         padding: 2em 2em;
     }
 }
@@ -1247,7 +1250,7 @@ a.move-top span {
         margin: 0 auto;
     }
 
-    .banner-content-w3pvt {
+    .banner-content-hit3pvt {
         padding-top: 7em;
     }
 
@@ -1337,7 +1340,7 @@ a.move-top span {
 }
 
 @media(max-width:375px) {
-    .banner-content-w3pvt {
+    .banner-content-hit3pvt {
         padding-top: 6.5em;
     }
 }
