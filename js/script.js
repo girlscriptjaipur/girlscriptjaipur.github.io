@@ -9,3 +9,8 @@ function hideIt1(){
     document.getElementById('btnShow').style.display = 'inline-block';
     document.getElementById('btnShow1').style.display = 'none';
 }
+
+function readmore(){
+    document.getElementById('read1').style. display = 'inline-block';
+    document.getElementById('rode1').style.display = 'none';
+}
