@@ -1025,6 +1025,9 @@ a.move-top span {
     width: 200px !important;
     display: inline-block !important;
 }
+.imgSize{
+    width: 10%;
+}
 
 @media(max-width:1366px) {
     .main-content {
@@ -1120,7 +1123,9 @@ a.move-top span {
     .team-info small {
         font-size: 0.9em;
     }
-
+    .imgSize{
+        width: 15%;
+    }
 
 
 
@@ -1224,6 +1229,10 @@ a.move-top span {
 .logo-abc{
     width: 200px !important;
     display: inline-block !important;
+}
+.imgSize{
+    width: 35%;
+    border-radius: 50%;
 }
 }
 
