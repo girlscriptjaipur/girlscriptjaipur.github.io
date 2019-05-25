@@ -520,7 +520,8 @@ p.hit3pvt-phone {
 }
 
 .main-content.inner {
-    min-height: 20em;
+    background: url(../images/purple-gradient.png) center no-repeat;
+	min-height: 20em;
 }
 
 .banner-content-hit3pvt {
