@@ -509,14 +509,14 @@ p.hit3pvt-phone {
 
 
 .main-content {
-    background: url(../images/banner.jpg) center no-repeat;
+    background: url(../images/banner-new.png) center no-repeat;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     -ms-background-size: cover;
     background-size: cover;
     position: relative;
-    min-height: 47em;
+    min-height: 35em;
 }
 
 .main-content.inner {
@@ -681,7 +681,7 @@ a.btn.btn-course:hover {
 }
 
 .last-content {
-    background: url(../images/banner3.jpg) center no-repeat;
+    background: url(../images/banner-join-us.png) center no-repeat;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
