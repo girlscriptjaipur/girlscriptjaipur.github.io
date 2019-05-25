@@ -10,7 +10,7 @@ function hideIt1(){
     document.getElementById('btnShow1').style.display = 'none';
 }
 
-function readmore(){
-    document.getElementById('read1').style. display = 'inline-block';
-    document.getElementById('rode1').style.display = 'none';
+function readmore(n){
+    document.getElementById('read'+n).style. display = 'inline-block';
+    document.getElementById('rode'+n).style.display = 'none';
 }
