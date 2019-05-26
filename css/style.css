@@ -164,7 +164,7 @@ nav ul li ul li:hover {
 
 .menu li.active a,
 .menu li a:hover {
-    color: #229CC9;
+    color: #DA6BDD;
     transition: 0.5s all;
     -webkit-transition: 0.5s all;
     -moz-transition: 0.5s all;
