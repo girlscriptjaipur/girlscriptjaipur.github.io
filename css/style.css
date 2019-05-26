@@ -509,18 +509,19 @@ p.hit3pvt-phone {
 
 
 .main-content {
-    background: url(../images/banner.jpg) center no-repeat;
+    background: url(../images/banner-new.jpg) center no-repeat;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     -ms-background-size: cover;
     background-size: cover;
     position: relative;
-    min-height: 47em;
+    min-height: 35em;
 }
 
 .main-content.inner {
-    min-height: 20em;
+    background: url(../images/purple-gradient.png) center no-repeat;
+	min-height: 20em;
 }
 
 .banner-content-hit3pvt {
@@ -680,7 +681,7 @@ a.btn.btn-course:hover {
 }
 
 .last-content {
-    background: url(../images/banner3.jpg) center no-repeat;
+    background: url(../images/banner-join-us.jpg) center no-repeat;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -715,7 +716,7 @@ a.btn.btn-course:hover {
 
 
 .testimonials {
-    background: url(../images/banner2.jpg) center no-repeat;
+    background: url(../images/banner-join-us.jpg) center no-repeat;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
