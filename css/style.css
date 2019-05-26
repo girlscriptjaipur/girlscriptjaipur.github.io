@@ -636,7 +636,7 @@ a.btn.btn-course:hover {
 .content-left-bottom h5 {
     color: #229CC9;
     text-shadow: 0 2px 12px rgba(0, 0, 0, 0.05);
-    font-size: 1em;
+    font-size: 1.5em;
 }
 
 .content-hit3pvt-img {
@@ -1291,7 +1291,7 @@ a.move-top span {
     }
 
     .main-content.inner {
-        min-height: 9em;
+        min-height: 20em;
     }
 
     .entry-lore-info h4 {
