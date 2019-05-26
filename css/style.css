@@ -1235,6 +1235,11 @@ a.move-top span {
     width: 35%;
     /* border-radius: 50%; */
 }
+.new-h2{
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 1.6;
+}
 }
 
 @media(max-width:736px) {
