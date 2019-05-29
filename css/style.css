@@ -30,6 +30,11 @@ h6 {
     letter-spacing: 1px;
 }
 
+sup { 
+  vertical-align: super;
+  font-size: small;
+}
+
 p {
     margin: 0;
     color: #212529;
