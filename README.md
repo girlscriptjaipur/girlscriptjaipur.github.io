@@ -1,7 +1,13 @@
-# [GirlScript-Jaipur](https://girlscript.github.io)
+# [GirlScript-Jaipur](https://girlscript.js.org)
  
-Official website of Girlscript Jaipur
+This repository contains official website of Girlscript Jaipur.
 
-#GirlScript Jaipur
-GirlScript Jaipur is a not-for-profit community under GirlScript India for Students, Software Developers, IT Professionals, and Entrepreneurs. The organizing team consists of energized individuals from several colleges in Jaipur. We believe in being the force that transforms how Students learn in India. We encourage our members to become the 'students they would want to teach'. GirlScript focuses on beginners and learners. At GirlScript, we try to entertain members from all domains irrespective of their experience, gender, and age through conducting free-of-cost workshops and technical programs. Our aim is to provide everyone with a platform to exchange great ideas and knowledge.
-GirlScript is the India's leading biggest and largest tech communnity expanded now in Jaipur. Learn new from the biggest tech community of well trained mentors. Join us today.
+# Contributing
+When contributing to this repository, please first discuss the change you wish to make via issue, email, or any other method with the maintainers of this repository before making a change. Your change will otherwise not be accepted.  
+Visit our Wiki for detailed description: https://github.com/girlscriptjaipur/girlscriptjaipur.github.io/wiki
+
+Find [issues](https://github.com/girlscriptjaipur/girlscriptjaipur.github.io/issues) with ![](https://img.shields.io/badge/label:-good%20first%20issue-%237057ff.svg) for your first contribution.
+
+### Technology Stack Description
+
+[To be updated.]
