@@ -8,8 +8,8 @@ Visit our Wiki for detailed description: [GirlScript Jaipur Wiki](https://github
 
 ### Find [issues](https://github.com/girlscriptjaipur/girlscriptjaipur.github.io/issues) with:  
 ![](https://img.shields.io/badge/label:-good%20first%20issue-%237057ff.svg) for your first contribution.  
-![](https://img.shields.io/badge/label%3A-priority-%234ec633.svg) are our priority task and suggest incomplete website content.  
-![](https://img.shields.io/badge/label%3A-enhancement-%a2eeef.svg) for new features and updates.
+![](https://img.shields.io/badge/label%3A-priority-%234ec633.svg) are our priority tasks and suggest incomplete website content.  
+![](https://img.shields.io/badge/label%3A-enhancement-%23a2eeef.svg) for new features and updates.
 
 
 ### Technology Stack Description
