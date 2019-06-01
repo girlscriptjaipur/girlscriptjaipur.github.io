@@ -229,8 +229,8 @@ a.reqe-button {
 }
 
 /*TIMELINE*/
-
-#timeline {
+#timeline {display: none;}
+#timeline-d {
   display: flex;
   background-color: #000;
   font-family: "Source Sans Pro", Helvetica Neue, Helvetica, Arial, sans-serif;
@@ -238,10 +238,10 @@ a.reqe-button {
   line-height: 1.75;
 
 }
-#timeline:hover .tl-item {
+#timeline-d:hover .tl-item {
   width: 23.3333%;
 }
-.tl-item {
+.tl-item-d {
   transform: translate3d(0, 0, 0);
   position: relative;
   width: 25%;
@@ -251,7 +251,7 @@ a.reqe-button {
   overflow: hidden;
   transition: width 0.5s ease;
 }
-.tl-item:before, .tl-item:after {
+.tl-item-d:before, .tl-item-d:after {
   transform: translate3d(0, 0, 0);
   content: "";
   position: absolute;
@@ -260,40 +260,40 @@ a.reqe-button {
   width: 100%;
   height: 100%;
 }
-.tl-item:after {
+.tl-item-d:after {
   background: rgba(137, 4, 163, 0.50);
   opacity: 0.8;
   -webkit-filter: blur(2px);
   filter: blur(2px);
   transition: opacity 0.5s ease;
 }
-.tl-item:before {
+.tl-item-d:before {
   background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(137, 4, 163) 75%);
   z-index: 1;
   opacity: 0;
   transform: translate3d(0, 0, 0) translateY(50%);
   transition: opacity 0.5s ease, transform 0.5s ease;
 }
-.tl-item:hover {
+.tl-item-d:hover {
   width: 30%;
 }
-.tl-item:hover:after {
+.tl-item-d:hover:after {
   opacity: 0;
 }
-.tl-item:hover:before {
+.tl-item-d:hover:before {
   opacity: 1;
   transform: translate3d(0, 0, 0) translateY(0);
   transition: opacity 1s ease, transform 1s ease 0.25s;
 }
-.tl-item:hover .tl-content {
+.tl-item-d:hover .tl-content-d {
   opacity: 1;
   transform: translateY(0);
   transition: all 0.75s ease 0.5s;
 }
-.tl-item:hover .tl-bg {
+.tl-item-d:hover .tl-bg-d {
   filter: grayscale(0);
 }
-.tl-content {
+.tl-content-d {
   transform: translate3d(0, 0, 0) translateY(25px);
   position: relative;
   z-index: 1;
@@ -303,14 +303,14 @@ a.reqe-button {
   top: 55%;
   opacity: 0;
 }
-.tl-content.m1 {
+.tl-content-d.m1-d {
   font-family: "Pathway Gothic One", Helvetica Neue, Helvetica, Arial, sans-serif;
   text-transform: uppercase;
   color: #FFF;
   font-size: 1.44rem;
   font-weight: normal;
 }
-.tl-year {
+.tl-year-d {
   position: absolute;
   top: 50%;
   left: 50%;
@@ -319,12 +319,12 @@ a.reqe-button {
   border-top: 1px solid #fff;
   border-bottom: 1px solid #fff;
 }
-.tl-year p {
+.tl-year-d p {
   font-family: "Pathway Gothic One", Helvetica Neue, Helvetica, Arial, sans-serif;
   font-size: 1.728rem;
   line-height: 0;
 }
-.tl-bg {
+.tl-bg-d {
   transform: translate3d(0, 0, 0);
   position: absolute;
   width: 100%;
@@ -336,6 +336,7 @@ a.reqe-button {
   transition: filter 0.5s ease;
   filter: grayscale(100%);
 }
+
 
 /* Media Queries
 --------------------------------------------- */
@@ -1358,6 +1359,120 @@ a.move-top span {
     font-weight: 400;
     line-height: 1.6;
 }
+
+
+/*TIMELINE-MOBILE*/
+#timeline-d {display: none;}
+.tl-content-d {display: none;}
+#timeline {
+  display: flex;
+  flex-direction: column;
+  background-color: #000;
+  font-family: "Source Sans Pro", Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.75;
+}
+#timeline:hover .tl-item {
+  width: 100%;
+}
+.tl-item {
+  transform: translate3d(0, 0, 0);
+  position: relative;
+  width: 100%;
+  height: 50vh;
+  color: #fff;
+  overflow: hidden;
+  transition: width 0.5s ease;
+  
+}
+.tl-item:before, .tl-item:after {
+  transform: translate3d(0, 0, 0);
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+}
+.tl-item:after {
+  background: rgba(137, 4, 163, 0.50);
+  opacity: 0.8;
+  -webkit-filter: blur(2px);
+  filter: blur(2px);
+  transition: opacity 0.5s ease;
+}
+.tl-item:before {
+  background: linear-gradient(to left, rgba(0, 0, 0, 0) 0%, rgba(137, 4, 163) 75%);
+  z-index: 1;
+  opacity: 0;
+  transform: translate3d(0, 0, 0) translateY(50%);
+  transition: opacity 0.5s ease, transform 0.5s ease;
+}
+.tl-item:hover {
+  width: 30%;
+}
+.tl-item:hover:after {
+  opacity: 0;
+}
+.tl-item:hover:before {
+  opacity: 1;
+  transform: translate3d(0, 0, 0) translateY(0);
+  transition: opacity 1s ease, transform 1s ease 0.25s;
+}
+.tl-item:hover .tl-content {
+  opacity: 1;
+  transform: translateY(0);
+  transition: all 0.75s ease 0.5s;
+}
+.tl-item:hover .tl-bg {
+  filter: grayscale(0);
+}
+.tl-content {
+  transform: translate3d(0, 0, 0) translateY(25px);
+  position: relative;
+  z-index: 1;
+  color: #FFF;
+  text-align: left;
+  max-width: 50%;
+  margin: 0 1.618em;
+  top: 20%;
+  opacity: 0;
+}
+.tl-content.m1 {
+  font-family: "Pathway Gothic One", Helvetica Neue, Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+  color: #FFF;
+  font-size: 1.44rem;
+  font-weight: normal;
+  text-align: left;
+  margin-left: 0;
+}
+.tl-year {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  z-index: 1;
+  border-top: 1px solid #fff;
+  border-bottom: 1px solid #fff;
+}
+.tl-year p {
+  font-family: "Pathway Gothic One", Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-size: 1.0rem;
+  line-height: 0;
+}
+.tl-bg {
+  transform: translate3d(0, 0, 0);
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background-size: cover;
+  background-position: center center;
+  transition: filter 0.5s ease;
+  filter: grayscale(100%); 
+}
 }
 
 @media(max-width:736px) {
@@ -1394,6 +1509,7 @@ a.move-top span {
 }
 
 @media(max-width:667px) {
+
     .banner-lore-info h3 {
         font-size: 2em;
     }
@@ -1430,6 +1546,7 @@ a.move-top span {
 }
 
 @media(max-width:640px) {
+
     .team-main {
         margin: 0 auto;
         width: 90%;
@@ -1438,6 +1555,7 @@ a.move-top span {
 }
 
 @media(max-width:600px) {
+
     .banner-lore-info {
         width: 95%;
         margin: 0 auto;
@@ -1466,6 +1584,7 @@ a.move-top span {
 }
 
 @media(max-width:480px) {
+
     .counter.two {
         border-left: 1px solid #c3c5c6;
         border-right: 1px solid #c3c5c6;
@@ -1493,6 +1612,7 @@ a.move-top span {
 }
 
 @media(max-width:414px) {
+
     .banner-form input[type="email"] {
         padding: 7px 10px;
         font-size: 15px;
@@ -1514,6 +1634,7 @@ a.move-top span {
 }
 
 @media(max-width:384px) {
+
     .banner-lore-info h3 {
         font-size: 1.55em;
     }
@@ -1533,7 +1654,18 @@ a.move-top span {
 }
 
 @media(max-width:375px) {
+
     .banner-content-hit3pvt {
         padding-top: 6.5em;
     }
 }
+
+@media(max-width:360px) {
+
+    .banner-content-hit3pvt {
+        padding-top: 6.5em;
+    }
+}
+
+/* FOR-GDTC-TIMELINE */
+#link { color: #fff; }
