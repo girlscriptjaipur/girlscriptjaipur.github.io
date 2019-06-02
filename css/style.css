@@ -633,6 +633,16 @@ p.hit3pvt-phone {
     position: relative;
     min-height: 35em;
 }
+.main-content1 {
+    background: #38263D;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    -ms-background-size: cover;
+    background-size: cover;
+    position: relative;
+    min-height: 5.5em;
+}
 
 .main-content.inner {
     background: url(../images/purple-gradient.png) center no-repeat;
