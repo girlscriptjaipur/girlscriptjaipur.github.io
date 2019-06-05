@@ -1369,6 +1369,9 @@ a.move-top span {
     font-weight: 400;
     line-height: 1.6;
 }
+.mypad{
+    padding:0px !important;
+}
 
 
 /*TIMELINE-MOBILE*/
