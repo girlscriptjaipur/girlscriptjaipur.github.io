@@ -1,16 +1,16 @@
-function showIt(){
-    document.getElementById('hideIt').style.display = 'inline-block';
-    document.getElementById('btnShow').style.display = 'none';
-    document.getElementById('btnShow1').style.display = 'inline-block';
+function showPresent() {
+  document.getElementById("hidePresent").style.display = "inline-block";
+  document.getElementById("showbtnPresent").style.display = "none";
+  document.getElementById("hidebtnPresent").style.display = "inline-block";
 }
 
-function hideIt1(){
-    document.getElementById('hideIt').style.display = 'none';
-    document.getElementById('btnShow').style.display = 'inline-block';
-    document.getElementById('btnShow1').style.display = 'none';
+function hidePresent() {
+  document.getElementById("hidePresent").style.display = "none";
+  document.getElementById("showbtnPresent").style.display = "inline-block";
+  document.getElementById("hidebtnPresent").style.display = "none";
 }
 
-function readmore(n){
-    document.getElementById('read'+n).style. display = 'inline-block';
-    document.getElementById('rode'+n).style.display = 'none';
+function readmore(n) {
+  document.getElementById("read" + n).style.display = "inline-block";
+  document.getElementById("rode" + n).style.display = "none";
 }
