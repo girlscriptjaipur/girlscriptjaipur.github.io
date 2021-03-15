@@ -14,3 +14,15 @@ function readmore(n) {
   document.getElementById("read" + n).style.display = "inline-block";
   document.getElementById("rode" + n).style.display = "none";
 }
+
+function showPast() {
+  document.getElementById("hidePast").style.display = "inline-block";
+  document.getElementById("pastbtnShow").style.display = "none";
+  document.getElementById("pastbtnHide").style.display = "inline-block";
+}
+
+function hidePast() {
+  document.getElementById("hidePast").style.display = "none";
+  document.getElementById("pastbtnShow").style.display = "inline-block";
+  document.getElementById("pastbtnHide").style.display = "none";
+}

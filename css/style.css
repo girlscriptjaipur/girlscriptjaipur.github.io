@@ -1140,7 +1140,7 @@ a.move-top span {
 .boombam1{
     display: none;
 }
-#hidePresent{
+#hidePresent,#hidePast{
     display: none;
 }
 .btn11{
